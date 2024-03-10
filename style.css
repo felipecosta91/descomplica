@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    margin: 0; 
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+}
+.container{
+  min-height: 100vh!important;
+}
+
+footer {
+    flex-shrink: 0; 
+}
